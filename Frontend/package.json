@@ -1,0 +1,24 @@
+{
+  "name": "hack-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "ethers": "^5.7.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.4",
+    "next": "13.1.6",
+    "node": "^20.15.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "browser": {
+    "child_process": false
+  }
+}
